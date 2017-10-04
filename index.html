@@ -4,7 +4,46 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/jpg" href="img/cover.jpg">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <style>
+    header {
+    padding: 1em;
+    color: white;
+    background-color: #589684;
+    clear: left;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 1em;
+    color: #190d0d;
+    background-color: #589684;
+    clear: left;
+    text-align: center;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+}
+.copy-left {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: “FlipH”;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+</style>
 </head>
 <body>
 
@@ -24,7 +63,7 @@
       <div class="face"></div>
       <div class="about-txt"><h3 id="about">About Me</h3>
         <div class="blurb">
-          <p><strong>Programmer, Foodie, and Reader.</strong><br>Yet another programmer ☕. <br>I mainly mess around with Web development, API development and occasional web scraping ☺.<br>My newly found interests include IOT and machine learning; baby steps (ᵔᴥᵔ)<br>Currently hanging out at <a style="color:#c2c2a3" href="https://www.geekskool.com/">Geekskool</a>, Bangalore trying to learn me a FP.<br>PS: my current favorite author is Charles Bukowski !! </p>
+          <p><strong>Programmer, Foodie, and Reader.</strong><br>Yet another programmer ☕. <br>I mainly mess around with Web development, API development and occasional web scraping ☺.<br>My newly found interests include IOT and machine learning; baby steps (ᵔᴥᵔ)<br>Currently hanging out at <a style="color:#32bd5c" href="https://www.geekskool.com/">Geekskool</a>, Bangalore trying to learn me a FP.<br>PS: my current favorite authors are Charles Bukowski and Rumi !! </p>
         </div>
         <div class="cv" target="_blank">Yet another <a href="http://alenthomas.github.io/assets/ResumeThreePage.pdf" target="_blank">Resume</a>.
 	</div>
@@ -35,6 +74,7 @@
 
   <section class="contact-section">
     <div>
+      <br>
       <h3 id="contact">Contact</h3>
       <div class="contact-info">
 	<p>Alen Thomas<br><a href="mailto:alenthomas9@gmail.com">alenthomas9@gmail.com</a><br>Calicut, Kerala<br>India</p>
@@ -43,9 +83,18 @@
     <div>
       <div class="contact-links">
 
-	<a href="https://github.com/alenthomas" class="contact-link">
-          <div class="contact-icon"><!--?xml version="1.0" ?--><svg enable-background="new 0 0 50 50" id="Layer_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M30.4,40h-4h-4c0,0,0-2.4,0-4c-5.5,1.2-7-3-7-3c-1-2-2-3-2-3c-2-1.2,0-1,0-1c2,0,3,2,3,2  c1.8,3,4.9,2.5,6,2c0-1,0.4-2.5,1-3c-4.4-0.5-8-3-8-8s1-6,2-7c-0.2-0.5-1-2.3,0-5c0,0,2,0,4,3c1-1,4-1,5-1c1,0,4,0,5,1c2-3,4-3,4-3  c1.1,2.7,0.2,4.5,0,5c1,1,2,2,2,7s-3.6,7.5-8,8c0.6,0.5,1,2.2,1,3L30.4,40L30.4,40z" fill="#282828" id="Cat_2_"></path><path d="M25,1C11.7,1,1,11.7,1,25s10.7,24,24,24s24-10.7,24-24S38.3,1,25,1z M25,44C14.5,44,6,35.5,6,25S14.5,6,25,6  s19,8.5,19,19S35.5,44,25,44z" fill="#282828"></path></svg>
-	  </div>Github
+	<a href="https://github.com/alenthomas">
+          <img style="width:2em;height:2em;"src="/assets/github.svg">
+	</a>
+
+	<a href="https://www.linkedin.com/in/alen-thomas-51a919a8">
+
+          <img style="width:2em;height:2em;"src="/assets/linkedin.svg">
+	</a>
+
+        <a href="https://www.facebook.com/al3nthomas">
+          
+          <img style="width:2em;height:2em;"src="/assets/facebook.svg">
 	</a>
 
       </div>
@@ -53,14 +102,8 @@
   </section>
 
   <footer>
-    <div class="content-wrap">
-      <nav>
-       <a style="color:#c2c2a3" href="http://alenthomas.github.io/#about">About</a>
-      <a style="color:#c2c2a3" href="http://alenthomas.github.io/blog.html">Blog</a>
-      <a style="color:#c2c2a3" href="http://alenthomas.github.io/#contact">Contact</a>
-      </nav>
-      <p class="copyright" style="color:#c2c2a3">All content copyright CC</p>
-    </div>
+    <p class="copyright" style="color:#c2c2a3"><span class="copy-left">©</span>alenthomas</p>
+
   </footer>
 
 
