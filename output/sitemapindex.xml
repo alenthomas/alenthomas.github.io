@@ -6,47 +6,15 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>https://alenthomas.github.io/de/galleries/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/de/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/fr/galleries/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/fr/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://alenthomas.github.io/galleries/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/hi/galleries/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/hi/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/ml/galleries/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://alenthomas.github.io/ml/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
+  <lastmod>2019-03-09T12:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://alenthomas.github.io/rss.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
+  <lastmod>2019-03-09T12:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://alenthomas.github.io/sitemap.xml</loc>
-  <lastmod>2019-03-09T10:25:00Z</lastmod>
+  <lastmod>2019-03-09T12:04:00Z</lastmod>
  </sitemap>
 </sitemapindex>

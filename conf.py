@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Alen Thomas"  # (translatable)
-BLOG_TITLE = "Alen Thomas Personal Website"  # (translatable)
+BLOG_TITLE = "Alen Thomas"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://alenthomas.github.io/"
@@ -25,7 +25,7 @@ SITE_URL = "https://alenthomas.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://alenthomas.github.io/"
 BLOG_EMAIL = "hello@alenthomas.dev"
-BLOG_DESCRIPTION = "This is the personal website for Alen Thomas"  # (translatable)
+BLOG_DESCRIPTION = "Personal Website of Alen Thomas"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -97,10 +97,8 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 TRANSLATIONS = {
     DEFAULT_LANG: "",
-    "de": "./de",
-    "fr": "./fr",
-    "hi": "./hi",
-    "ml": "./ml",
+    # Example for another language:
+    # "es": "./es",
 }
 
 # What will translated input files be named like?
@@ -140,33 +138,10 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/blog", "Blogs"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
-    ),
-
-    "de": (
-        ("/de/archive.html", "Archiv"),
-        ("/de/categories/", "Tags"),
-        ("/de/rss.xml", "RSS-Feed"),
-    ),
-
-    "fr": (
-        ("/fr/archive.html", "Archives"),
-        ("/fr/categories/", "Étiquettes"),
-        ("/fr/rss.xml", "Flux RSS"),
-    ),
-
-    "hi": (
-        ("/hi/archive.html", "आर्काइव"),
-        ("/hi/categories/", "टैग्स"),
-        ("/hi/rss.xml", "आर एस एस फ़ीड"),
-    ),
-
-    "ml": (
-        ("/ml/archive.html", "ആര്‍കൈവ്"),
-        ("/ml/categories/", "ടാഗുകള്‍"),
-        ("/ml/rss.xml", "ആര്‍ എസ് എസ് ഫീഡ്"),
     ),
 }
 
@@ -242,16 +217,16 @@ THEME_CONFIG = {
 #     )
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "", "page.tmpl"),
+    ("pages/*.md", "", "page.tmpl"),
+    ("pages/*.txt", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
 )
 
 
@@ -559,7 +534,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -988,7 +963,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, muut, commento
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
