@@ -1,0 +1,4 @@
+Sitemap: https://alenthomas.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: alenthomas.github.io
