@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Alen Thomas</title>
-    <link>https://alenthomas.github.io/</link>
-    <description>Recent content on Alen Thomas</description>
+    <title>Skills on Alen Thomas</title>
+    <link>https://alenthomas.github.io/tags/skills/</link>
+    <description>Recent content in Skills on Alen Thomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Mar 2019 14:53:57 +0530</lastBuildDate>
     
-	<atom:link href="https://alenthomas.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alenthomas.github.io/tags/skills/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <description>I have been writing code from my college days and been doing it for a living sice 2015.
 I really enjoy working in the startup environment and currently working as Technical Consultant at TarkaLabs.
 I love building/breaking and building stuff again (although preferably not in prod). For the past 1 year have been working fully remote and enjoying it very much. Currently learning to pick up the functional way getting things done.</description>
-    </item>
-    
-    <item>
-      <title>Hugo vs Jekyll</title>
-      <link>https://alenthomas.github.io/blogs/hugo-vs-jekyll/</link>
-      <pubDate>Sun, 10 Mar 2019 13:51:03 +0530</pubDate>
-      
-      <guid>https://alenthomas.github.io/blogs/hugo-vs-jekyll/</guid>
-      <description>Developer Problems As developers we always want to start writing our own blogs and give something back to the community which always has got our backs, but its something that we mostly never get around to (well thats me anyways). Who has time to write your own blogs when you have deadlines and prod bugs. But even if we make up our mind to start writing and clear on of your weekend schedules, there comes The Paradox of Choice medium, ghpages etc etc.</description>
     </item>
     
   </channel>

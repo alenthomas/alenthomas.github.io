@@ -6,9 +6,37 @@
     <description>Recent content in Tags on Alen Thomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 10 Mar 2019 14:53:57 +0530</lastBuildDate>
     
 	<atom:link href="https://alenthomas.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://alenthomas.github.io/tags/about/</link>
+      <pubDate>Sun, 10 Mar 2019 14:53:57 +0530</pubDate>
+      
+      <guid>https://alenthomas.github.io/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://alenthomas.github.io/tags/blog/</link>
+      <pubDate>Sun, 10 Mar 2019 14:53:57 +0530</pubDate>
+      
+      <guid>https://alenthomas.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://alenthomas.github.io/tags/skills/</link>
+      <pubDate>Sun, 10 Mar 2019 14:53:57 +0530</pubDate>
+      
+      <guid>https://alenthomas.github.io/tags/skills/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
